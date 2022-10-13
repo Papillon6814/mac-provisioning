@@ -1,0 +1,14 @@
+homebrew_taps:
+  - { name: homebrew/cask }
+  - { name: homebrew/cask-versions }
+  - { name: homebrew/cask-fonts }
+  - { name: homebrew/core }
+
+homebrew_packages:
+  - { name: fish, state: present }
+  - { name: tree }
+  - { name: asdf }
+  - { name: gh }
+  - { name: lazygit }
+
+homebrew_cask_packages: []
