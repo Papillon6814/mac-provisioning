@@ -1,0 +1,11 @@
+- name: Fetch Installed App List
+  command: mas list
+  register: installed_app_list
+  check_mode: no
+  changed_when: no
+
+- name: Install Apps from AppStore
+  command: "mas install {{ item.id }}"
+  when: "installed_app_list.stdout_lines | select('search', item.id) | list | length == 0"
+  with_items: "{{ apps }}"
+

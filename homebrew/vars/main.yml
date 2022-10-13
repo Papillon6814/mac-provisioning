@@ -17,6 +17,7 @@ homebrew_packages:
   - { name: anyenv }
   - { name: tree-sitter }
   - { name: ripgrep }
+  - { name: mas }
 
 homebrew_cask_packages:
   - { name: font-hack-nerd-font }
