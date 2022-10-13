@@ -12,5 +12,6 @@ homebrew_packages:
   - { name: lazygit }
   - { name: exa }
   - { name: bat }
+  - { name: sl }
 
 homebrew_cask_packages: []
