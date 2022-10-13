@@ -8,3 +8,6 @@
 - HOMEBREW_CASK_OPTS="--appdir=~/Applications" ansible-playbook -i hosts -K exec.yml
 verbose
 -  HOMEBREW_CASK_OPTS="--appdir=~/Applications" ansible-playbook -vvvv -i hosts -K exec.yml
+
+注意
+M1Macの場合ははじめからiTerm2をRosettaで起動する。
