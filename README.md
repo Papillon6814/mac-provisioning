@@ -11,3 +11,4 @@ verbose
 
 注意
 M1Macの場合ははじめからiTerm2をRosettaで起動する。
+iTerm2のフォントはNerd Fontに変更する。 -> deviconsが表示されるようになる。

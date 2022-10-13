@@ -35,3 +35,7 @@
     nodenv install 16.17.1
     nodenv global 16.17.1
   ignore_errors: yes
+
+- name: Setup neovim pt2
+  shell: |
+    python3 -m pip install --user --upgrade pynvim

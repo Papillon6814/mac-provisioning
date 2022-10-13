@@ -15,5 +15,8 @@ homebrew_packages:
   - { name: sl }
   - { name: neovim }
   - { name: anyenv }
+  - { name: tree-sitter }
+  - { name: ripgrep }
 
-homebrew_cask_packages: []
+homebrew_cask_packages:
+  - { name: font-hack-nerd-font }
