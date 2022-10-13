@@ -14,7 +14,6 @@ homebrew_packages:
   - { name: bat }
   - { name: sl }
   - { name: neovim }
-  - { name: pyenv }
   - { name: anyenv }
 
 homebrew_cask_packages: []
