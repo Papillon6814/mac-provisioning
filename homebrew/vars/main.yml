@@ -20,4 +20,15 @@ homebrew_packages:
   - { name: mas }
 
 homebrew_cask_packages:
+  - { name: firefox }
   - { name: font-hack-nerd-font }
+  - { name: google-japanese-ime }
+  - { name: discord }
+  - { name: karabiner-elements }
+  - { name: iterm2 }
+  - { name: postman }
+  - { name: pgadmin4 }
+  - { name: google-cloud-sdk }
+  - { name: visual-studio-code }
+  - { name: spotify }
+  - { name: notion }

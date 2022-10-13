@@ -1,0 +1,9 @@
+osx_defaults:
+  # 拡張子を常に表示
+  - { domain: NSGlobalDomain, key: AppleShowAllExtensions, type: bool, value: true, state: present }
+  # バッテリー残量を%表示
+  - { domain: com.apple.menuextra.battery, key: ShowPercent, type: string, value: "YES", state: present }
+  # Dockを自動的に表示・非表示
+  - { domain: com.apple.dock, key: autohide, type: bool, value: true, state: present }
+  # 最近使用した項目を非表示
+  - { domain: com.apple.dock, key: show-recents, type: bool, value: false, state: present }

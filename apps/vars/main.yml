@@ -5,3 +5,4 @@ apps:
   - { name: "Microsoft Excel", id: "462058435" }
   - { name: "Microsoft PowerPoint", id: "462062816" }
   - { name: "Twitter", id: "1482454543" }
+  - { name: "RunCat", id: "1429033973" }
