@@ -1,0 +1,3 @@
+- name: Start Postgres
+  shell: |
+    brew services start postgresql

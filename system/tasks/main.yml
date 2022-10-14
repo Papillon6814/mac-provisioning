@@ -13,18 +13,15 @@
   with_items:
     - "{{ killall }}"
 
-- name: Configure the dock
-  ansible.builtin.include_role:
-    name: feffi.macos-dock
-  vars:
-    reset: true
-    applications:
-      add:
-        - { label: "FireFox", path: "/Applications/Firefox.app", pos: 1 }
-        - { label: "LINE", path: "/Applications/LINE.app", pos: 2 }
-        - { label: "WhatsApp", path: "/Applications/WhatsApp.app", pos: 3 }
-        - { label: "Discord", path: "~/Applications/Discord.app", pos: 4 }
-        - { label: "Spotify", path: "~/Applications/Spotify/app", pos: 5 }
-        - { label: "iTerm", path: "/Applications/iTerm.app", pos: 6 }
-        - { label: "Notion", path: "~/Applications/Notion.app", pos: 7 }
+- name: Remove all application from dock
+  shell: |
+    dockutil --remove all
+  ignore_errors: true
+  changed_when: false
 
+- name: Adding apps to dock
+  shell: | 
+    dockutil --add {{ item.path }} --label {{ item.label }}
+  ignore_errors: true
+  with_items:
+    - "{{ dock_apps }}"

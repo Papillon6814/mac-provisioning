@@ -25,8 +25,21 @@ osx_defaults:
   - { domain: ~/Library/Preferences/ByHost/com.apple.controlcenter.plist, key: Bluetooth, type: int, value: 18, state: present }
   # Volumeアイコンを表示
   - { domain: ~/Library/Preferences/ByHost/com.apple.controlcenter.plist, key: Sound, type: int, value: 18, state: present }
+  # Mission Controlの並べ替えを禁止する
+  - { domain: com.apple.dock, key: mru-spaces, type: bool, value: false, state: present }
 
 killall:
   - { name: Dock }
   - { name: Finder }
   - { name: SystemUIServer }
+
+dock_apps:
+  - { label: "FireFox", path: "~/Applications/Firefox.app", pos: 1 }
+  - { label: "LINE", path: "/Applications/LINE.app", pos: 2 }
+  - { label: "WhatsApp", path: "/Applications/WhatsApp.app", pos: 3 }
+  - { label: "Discord", path: "~/Applications/Discord.app", pos: 4 }
+  - { label: "Spotify", path: "~/Applications/Spotify.app", pos: 5 }
+  - { label: "iTerm", path: "~/Applications/iTerm.app", pos: 6 }
+  - { label: "Notion", path: "~/Applications/Notion.app", pos: 7 }
+  - { label: "Postman", path: "~/Applications/Postman.app", pos: 8 }
+

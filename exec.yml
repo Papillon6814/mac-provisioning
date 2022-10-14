@@ -5,3 +5,4 @@
     - { role: dotfiles, tags: [dotfiles] }
     - { role: apps, tags: [apps] }
     - { role: system, tags: [system] }
+    - { role: postgres, tags: [postgres] }
