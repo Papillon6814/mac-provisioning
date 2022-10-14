@@ -7,3 +7,16 @@ osx_defaults:
   - { domain: com.apple.dock, key: autohide, type: bool, value: true, state: present }
   # 最近使用した項目を非表示
   - { domain: com.apple.dock, key: show-recents, type: bool, value: false, state: present }
+  # Finderのリスト表示
+  - { domain: com.apple.finder, key: FXPreferredViewStyle, type: string, value: "Nlsv", state: present }
+  # Finderのタイトルバーにフルパスを表示
+  - { domain: com.apple.finder, key: _FXShowPosixPathInTitle, type: bool, value: true, state: present }
+  # ステータスバーを表示
+  - { domain: com.apple.finder, key: ShowStatusBar, type: bool, value: true, state: present }
+  # パスバーを表示
+  - { domain: com.apple.finder, key: ShowPathbar, type: bool, value: true, state: present }
+
+killall:
+  - { name: Dock }
+  - { name: Finder }
+  - { name: SystemUIServer }

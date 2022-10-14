@@ -8,6 +8,11 @@
   with_items:
   - "{{ osx_defaults }}"
 
+- name: Killall system setting
+  shell: killall {{ item.name }}
+  with_items:
+    - "{{ killall }}"
+
 - name: Configure the dock
   ansible.builtin.include_role:
     name: feffi.macos-dock
@@ -15,4 +20,11 @@
     reset: true
     applications:
       add:
-        - { label: "Mail", path: "" }
+        - { label: "FireFox", path: "/Applications/Firefox.app", pos: 1 }
+        - { label: "LINE", path: "/Applications/LINE.app", pos: 2 }
+        - { label: "WhatsApp", path: "/Applications/WhatsApp.app", pos: 3 }
+        - { label: "Discord", path: "~/Applications/Discord.app", pos: 4 }
+        - { label: "Spotify", path: "~/Applications/Spotify/app", pos: 5 }
+        - { label: "iTerm", path: "/Applications/iTerm.app", pos: 6 }
+        - { label: "Notion", path: "~/Applications/Notion.app", pos: 7 }
+

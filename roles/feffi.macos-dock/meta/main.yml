@@ -1,0 +1,34 @@
+---
+galaxy_info:
+  author: Kevin Wennemuth
+  description: Ansible role to manage the macOS dock.
+  license: MIT
+  min_ansible_version: 2.4.0.0
+  platforms:
+    - name: Darwin
+      versions:
+        - all
+  galaxy_tags:
+    - system
+    - osx
+    - macos
+    - menu
+    - dock
+    - config
+    - ui
+dependencies:
+  - { role: feffi.macos-homebrew,
+      macos_homebrew: {
+        packages: [
+          { name: "dockutil" }
+        ],
+        taps: [],
+        casks: [],
+        brews: []
+      }
+    }
+  - { role: feffi.macos-defaults,
+      macos_defaults: {
+        defaults: []
+      }
+    }
