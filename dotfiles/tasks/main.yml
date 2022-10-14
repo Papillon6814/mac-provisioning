@@ -6,8 +6,8 @@
 - name: Setup fish
   shell: |
     echo /usr/local/bin/fish | sudo tee -a /etc/shells
-    if [ ! grep -q /usr/local/bin/fish /etc/shell ]; then
-      chsh -s /usr/local/bin/fish
+    if [ ! grep -q /opt/homebrew/bin/fish /etc/shell ]; then
+      chsh -s /opt/homebrew/bin/fish
     fi
 
 - name: Setup neovim

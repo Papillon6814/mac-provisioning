@@ -23,3 +23,7 @@ You need to change fonts to Nerd Font in iTerm2, so that devicons are displayed 
 
 MacOS defaults
 https://macos-defaults.com/finder/fxpreferredviewstyle.html#set-to-clmv
+
+```
+defaults read
+```
