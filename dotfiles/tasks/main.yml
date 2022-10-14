@@ -40,12 +40,36 @@
   shell: |
     python3 -m pip install --user --upgrade pynvim
 
-- name: Setup asdf
+- name: Add asdf erlang plugin
   shell: |
     asdf plugin add erlang
+  ignore_errors: true
+
+- name: Add asdf elixir plugin
+  shell: |
     asdf plugin add elixir
+  ignore_errors: true
+
+- name: Install asdf erlang plugin
+  shell: |
     asdf install erlang 25.1
+    exec $SHELL -l
+  ignore_errors: true
+
+- name: Install asdf elixir plugin
+  shell: |
     asdf install elixir 1.13.4-otp-25
+    exec $SHELL -l
+  ignore_errors: true
+
+- name: Make asdf erlang plugins global
+  shell: |
     asdf global erlang 25.1
+    exec $SHELL -l
+  ignore_errors: true
+
+- name: Make asdf elixir plugin global
+  shell: |
     asdf global elixir 1.13.4-otp-25
     exec $SHELL -l
+  ignore_errors: true
