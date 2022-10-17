@@ -4,6 +4,7 @@ homebrew_taps:
   - { name: homebrew/cask-fonts }
   - { name: homebrew/core }
   - { name: lotyp/homebrew-formulae }
+  - { name: koekeishiya/formulae }
 
 homebrew_packages:
   - { name: fish, state: present }
@@ -21,6 +22,10 @@ homebrew_packages:
   - { name: mas }
   - { name: postgresql }
   - { name: lotyp/formulae/dockutil }
+  - { name: koekeishiya/formulae/yabai }
+  - { name: jq }
+  - { name: skhd }
+  - { name: elixir-ls }
 
 homebrew_cask_packages:
   - { name: firefox }
