@@ -40,3 +40,4 @@ homebrew_cask_packages:
   - { name: visual-studio-code }
   - { name: spotify }
   - { name: notion }
+  - { name: neo4j }
