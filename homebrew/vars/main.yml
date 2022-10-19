@@ -26,6 +26,7 @@ homebrew_packages:
   - { name: jq }
   - { name: skhd }
   - { name: elixir-ls }
+  - { name: neo4j }
 
 homebrew_cask_packages:
   - { name: firefox }
