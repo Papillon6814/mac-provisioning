@@ -44,3 +44,4 @@ homebrew_cask_packages:
   - { name: neo4j }
   - { name: docker }
   - { name: keycastr }
+  - { name: google-chrome }
