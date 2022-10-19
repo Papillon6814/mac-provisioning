@@ -41,3 +41,4 @@ homebrew_cask_packages:
   - { name: spotify }
   - { name: notion }
   - { name: neo4j }
+  - { name: docker }
