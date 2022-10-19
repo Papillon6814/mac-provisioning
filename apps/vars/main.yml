@@ -6,3 +6,4 @@ apps:
   - { name: "Microsoft PowerPoint", id: "462062816" }
   - { name: "Twitter", id: "1482454543" }
   - { name: "RunCat", id: "1429033973" }
+  - { name: "Trello", id: "1278508951" }
