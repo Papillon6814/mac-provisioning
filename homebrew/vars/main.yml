@@ -42,3 +42,4 @@ homebrew_cask_packages:
   - { name: notion }
   - { name: neo4j }
   - { name: docker }
+  - { name: keycastr }
