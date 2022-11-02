@@ -46,3 +46,4 @@ homebrew_cask_packages:
   - { name: docker }
   - { name: keycastr }
   - { name: google-chrome }
+  - { name: ubersicht }
