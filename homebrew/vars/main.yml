@@ -28,6 +28,8 @@ homebrew_packages:
   - { name: elixir-ls }
   - { name: neo4j }
   - { name: go }
+  - { name: ranger }
+  - { name: asciiquarium }
 
 homebrew_cask_packages:
   - { name: firefox }
