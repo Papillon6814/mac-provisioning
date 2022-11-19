@@ -49,3 +49,5 @@ homebrew_cask_packages:
   - { name: keycastr }
   - { name: google-chrome }
   - { name: ubersicht }
+  - { name: figma }
+  - { name: wireshark }
