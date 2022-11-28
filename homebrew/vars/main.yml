@@ -30,6 +30,7 @@ homebrew_packages:
   - { name: go }
   - { name: ranger }
   - { name: asciiquarium }
+  - { name: rust-analyzer }
 
 homebrew_cask_packages:
   - { name: firefox }
