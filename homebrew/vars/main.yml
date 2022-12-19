@@ -31,6 +31,7 @@ homebrew_packages:
   - { name: ranger }
   - { name: asciiquarium }
   - { name: rust-analyzer }
+  - { name: rbenv }
 
 homebrew_cask_packages:
   - { name: firefox }
