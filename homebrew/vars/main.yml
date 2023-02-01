@@ -24,7 +24,7 @@ homebrew_packages:
   - { name: lotyp/formulae/dockutil }
   - { name: koekeishiya/formulae/yabai }
   - { name: jq }
-  - { name: skhd }
+  #- { name: skhd }
   - { name: elixir-ls }
   - { name: neo4j }
   - { name: go }
