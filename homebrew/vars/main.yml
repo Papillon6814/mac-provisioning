@@ -5,6 +5,7 @@ homebrew_taps:
   - { name: homebrew/core }
   - { name: lotyp/homebrew-formulae }
   - { name: koekeishiya/formulae }
+  - { name: ethereum/ethereum }
 
 homebrew_packages:
   - { name: fish, state: present }
@@ -32,6 +33,7 @@ homebrew_packages:
   - { name: asciiquarium }
   - { name: rust-analyzer }
   - { name: rbenv }
+  - { name: solidity }
 
 homebrew_cask_packages:
   - { name: firefox }
