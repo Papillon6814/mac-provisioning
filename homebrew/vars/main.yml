@@ -34,6 +34,7 @@ homebrew_packages:
   - { name: rust-analyzer }
   - { name: rbenv }
   - { name: solidity }
+  - { name: gopls }
 
 homebrew_cask_packages:
   - { name: firefox }
