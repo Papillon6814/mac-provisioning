@@ -57,3 +57,4 @@ homebrew_cask_packages:
   - { name: figma }
   - { name: wireshark }
   - { name: raycast }
+  - { name: lark }
