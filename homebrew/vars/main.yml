@@ -58,3 +58,4 @@ homebrew_cask_packages:
   - { name: wireshark }
   - { name: raycast }
   - { name: lark }
+  - { name: mysql }
