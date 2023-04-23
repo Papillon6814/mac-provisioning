@@ -36,6 +36,8 @@ homebrew_packages:
   - { name: solidity }
   - { name: gopls }
   - { name: stylua }
+  - { name: lua-language-server }
+  - { name: pylint }
 
 homebrew_cask_packages:
   - { name: firefox }
