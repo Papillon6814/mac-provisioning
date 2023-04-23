@@ -39,6 +39,7 @@ homebrew_packages:
   - { name: lua-language-server }
   - { name: pylint }
   - { name: black }
+  - { name: pyright }
 
 homebrew_cask_packages:
   - { name: firefox }
