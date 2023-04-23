@@ -38,6 +38,7 @@ homebrew_packages:
   - { name: stylua }
   - { name: lua-language-server }
   - { name: pylint }
+  - { name: black }
 
 homebrew_cask_packages:
   - { name: firefox }
