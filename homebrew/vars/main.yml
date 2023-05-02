@@ -41,6 +41,7 @@ homebrew_packages:
   - { name: black }
   - { name: pyright }
   - { name: direnv }
+  - { name: progress }
 
 homebrew_cask_packages:
   - { name: firefox }
