@@ -42,6 +42,7 @@ homebrew_packages:
   - { name: pyright }
   - { name: direnv }
   - { name: progress }
+  - { name: nmap }
 
 homebrew_cask_packages:
   - { name: firefox }
