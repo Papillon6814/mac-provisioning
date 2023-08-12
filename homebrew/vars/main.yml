@@ -43,6 +43,8 @@ homebrew_packages:
   - { name: direnv }
   - { name: progress }
   - { name: nmap }
+  - { name: tmux }
+  - { name: starship }
 
 homebrew_cask_packages:
   - { name: firefox }
