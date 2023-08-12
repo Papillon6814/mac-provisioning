@@ -68,3 +68,4 @@ homebrew_cask_packages:
   - { name: lark }
   - { name: mysql }
   - { name: telegram }
+  - { name: alacritty }
