@@ -45,6 +45,7 @@ homebrew_packages:
   - { name: nmap }
   - { name: tmux }
   - { name: starship }
+  - { name: peco }
 
 homebrew_cask_packages:
   - { name: firefox }
