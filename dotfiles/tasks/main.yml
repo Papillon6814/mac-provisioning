@@ -73,3 +73,8 @@
     asdf global elixir 1.13.4-otp-25
     exec $SHELL -l
   ignore_errors: true
+
+- name: Setup tmux package manager
+  shell: |
+    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+    exec $SHELL -l
