@@ -16,9 +16,9 @@ osx_defaults:
   # パスバーを表示
   - { domain: com.apple.finder, key: ShowPathbar, type: bool, value: true, state: present }
   # キーボードリピートの認識速度
-  - { domain: NSGlobalDomain, key: InitialKeyRepeat, type: int, value: 12, state: present }
+  - { domain: NSGlobalDomain, key: InitialKeyRepeat, type: float, value: 12.0, state: present }
   # キーボードのリピート速度
-  - { domain: NSGlobalDomain, key: KeyRepeat, type: int, value: 1, state: present }
+  - { domain: NSGlobalDomain, key: KeyRepeat, type: float, value: 1.0, state: present }
   # Finderを終了可能にする
   - { domain: com.apple.finder, key: QuitMenuItem, type: bool, value: true, state: present }
   # Bluetoothアイコンを表示
