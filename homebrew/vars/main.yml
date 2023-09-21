@@ -47,6 +47,7 @@ homebrew_packages:
   - { name: starship }
   - { name: peco }
   - { name: mkcert }
+  - { name: tfenv }
 
 homebrew_cask_packages:
   - { name: firefox }
