@@ -49,6 +49,7 @@ homebrew_packages:
   - { name: mkcert }
   - { name: tfenv }
   - { name: iann0036/iamlive/iamlive }
+  - { name: terraform-ls }
 
 homebrew_cask_packages:
   - { name: firefox }
