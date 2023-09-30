@@ -52,6 +52,7 @@ homebrew_packages:
   - { name: terraform-ls }
   - { name: kompose }
   - { name: minikube }
+  - { name: helm }
 
 homebrew_cask_packages:
   - { name: firefox }
