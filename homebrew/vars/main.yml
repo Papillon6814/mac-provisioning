@@ -50,6 +50,8 @@ homebrew_packages:
   - { name: tfenv }
   - { name: iann0036/iamlive/iamlive }
   - { name: terraform-ls }
+  - { name: kompose }
+  - { name: minikube }
 
 homebrew_cask_packages:
   - { name: firefox }
