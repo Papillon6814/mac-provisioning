@@ -1,8 +1,8 @@
 homebrew_taps:
-  - { name: homebrew/cask }
+  #- { name: homebrew/cask }
   - { name: homebrew/cask-versions }
   - { name: homebrew/cask-fonts }
-  - { name: homebrew/core }
+  #- { name: homebrew/core }
   - { name: lotyp/homebrew-formulae }
   - { name: koekeishiya/formulae }
   - { name: ethereum/ethereum }
@@ -53,11 +53,12 @@ homebrew_packages:
   - { name: kompose }
   - { name: minikube }
   - { name: helm }
+  - { name: tfsec }
 
 homebrew_cask_packages:
   - { name: firefox }
   - { name: font-hack-nerd-font }
-  - { name: google-japanese-ime }
+  #- { name: google-japanese-ime }
   - { name: discord }
   - { name: karabiner-elements }
   - { name: iterm2 }
