@@ -81,3 +81,4 @@ homebrew_cask_packages:
   - { name: clipy }
   - { name: telegram }
   - { name: alacritty }
+  - { name: android-studio }
