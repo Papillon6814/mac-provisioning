@@ -82,3 +82,4 @@ homebrew_cask_packages:
   - { name: telegram }
   - { name: alacritty }
   - { name: android-studio }
+  - { name: react-native-debugger }
