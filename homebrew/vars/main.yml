@@ -55,6 +55,7 @@ homebrew_packages:
   - { name: helm }
   - { name: tfsec }
   - { name: opentofu }
+  - { name: clisp }
 
 homebrew_cask_packages:
   - { name: firefox }
