@@ -13,7 +13,7 @@ homebrew_packages:
   - { name: asdf }
   - { name: gh }
   - { name: lazygit }
-  - { name: exa }
+  - { name: eza }
   - { name: bat }
   - { name: sl }
   - { name: neovim }
@@ -21,13 +21,12 @@ homebrew_packages:
   - { name: tree-sitter }
   - { name: ripgrep }
   - { name: mas }
-  - { name: postgresql }
+  - { name: postgresql@14 }
   - { name: lotyp/formulae/dockutil }
   - { name: koekeishiya/formulae/yabai }
   - { name: jq }
   #- { name: skhd }
   - { name: elixir-ls }
-  - { name: neo4j }
   - { name: go }
   - { name: ranger }
   - { name: asciiquarium }
@@ -48,7 +47,6 @@ homebrew_packages:
   - { name: peco }
   - { name: mkcert }
   - { name: tfenv }
-  - { name: iann0036/iamlive/iamlive }
   - { name: terraform-ls }
   - { name: kompose }
   - { name: minikube }
@@ -79,6 +77,8 @@ homebrew_cask_packages:
   - { name: wireshark }
   - { name: raycast }
   - { name: lark }
+  - { name: arc }
+  - { name: linear-linear }
     #- { name: mysql }
   - { name: clipy }
   - { name: telegram }
