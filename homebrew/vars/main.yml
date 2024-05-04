@@ -1,6 +1,6 @@
 homebrew_taps:
   #- { name: homebrew/cask }
-  - { name: homebrew/cask-versions }
+  #- { name: homebrew/cask-versions }
   - { name: homebrew/cask-fonts }
   #- { name: homebrew/core }
   - { name: lotyp/homebrew-formulae }
@@ -54,6 +54,7 @@ homebrew_packages:
   - { name: tfsec }
   - { name: opentofu }
   - { name: clisp }
+  - { name: git-gui }
 
 homebrew_cask_packages:
   - { name: firefox }
